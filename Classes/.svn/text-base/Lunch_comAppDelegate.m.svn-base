@@ -1,0 +1,43 @@
+//
+//  Lunch_comAppDelegate.m
+//  Lunch.com
+//
+//  Created by Rags on 08/03/10.
+//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//
+
+#import "Lunch_comAppDelegate.h"
+
+@implementation Lunch_comAppDelegate
+
+@synthesize window;
+@synthesize draftReviewNavigator,postReviewNavigator;
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application 
+{    
+
+    // Override point for customization after application launch
+    [window makeKeyAndVisible];
+}
+
+
+-(void)showdraftReview
+{
+	[window addSubview:[draftReviewNavigator view]];
+}
+
+-(void)showpostReview
+{
+	[window addSubview:[postReviewNavigator view]];
+}
+
+- (void)dealloc 
+{
+	[postReviewNavigator release];
+	[draftReviewNavigator release];
+    [window release];
+    [super dealloc];
+}
+
+
+@end

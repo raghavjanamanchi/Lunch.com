@@ -1,0 +1,14 @@
+//
+//  connectRetriever.m
+//  Lunch.com
+//
+//  Created by Rags on 08/03/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "connectRetriever.h"
+
+
+@implementation connectRetriever
+
+@end

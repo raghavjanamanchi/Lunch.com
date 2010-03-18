@@ -1,0 +1,24 @@
+//
+//  Lunch_comAppDelegate.h
+//  Lunch.com
+//
+//  Created by Rags on 08/03/10.
+//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface Lunch_comAppDelegate : NSObject <UIApplicationDelegate> 
+{
+    UIWindow *window;
+    UINavigationController *draftReviewNavigator,*postReviewNavigator;
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UINavigationController *draftReviewNavigator,*postReviewNavigator;
+
+-(void)showdraftReview;
+-(void)showpostReview;
+
+@end
+

@@ -1,0 +1,24 @@
+//
+//  loginPage.h
+//  Lunch
+//
+//  Created by Rags on 08/03/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface loginPage : UIViewController 
+{	
+	UIView *mainMenu;
+}
+
+@property(nonatomic,retain)UIView *mainMenu;
+
+-(void)loginInvalid;
+-(void)loginValid;
+-(void)showPostReview:(id)sender;
+-(void)showdraftReview:(id)sender;
+
+@end
