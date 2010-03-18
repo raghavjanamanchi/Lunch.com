@@ -1,0 +1,99 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Lunch_comAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1334, 699}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Lunch_comAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1565, 900}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 482}";
+			sepNavWindowFrame = "{{15, -5}, {1624, 1028}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Lunch.com */ = {
+		activeExec = 0;
+		executables = (
+			A0D43CE31144EB35005E9FF4 /* Lunch.com */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A0D43CE31144EB35005E9FF4 /* Lunch.com */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Lunch.com */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Lunch.com */,
+		);
+		codeSenseManager = A0D43CE91144EB3E005E9FF4 /* Code sense */;
+		executables = (
+			A0D43CE31144EB35005E9FF4 /* Lunch.com */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1156,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 289729333;
+			PBXWorkspaceStateSaveDate = 289729333;
+		};
+		sourceControlManager = A0D43CE81144EB3E005E9FF4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A0D43CE31144EB35005E9FF4 /* Lunch.com */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Lunch.com;
+		sourceDirectories = (
+		);
+	};
+	A0D43CE81144EB3E005E9FF4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	A0D43CE91144EB3E005E9FF4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
